@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-08T16:27:07Z" name="Suite" finished-at="2022-08-08T16:27:18Z" duration-ms="11587">
+    <groups>
+    </groups>
+    <test started-at="2022-08-08T16:27:07Z" name="Test" finished-at="2022-08-08T16:27:18Z" duration-ms="11587">
+      <class name="com.todos.tests.AddTodoTest">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:com.todos.tests.AddTodoTest@50dfbc58]" started-at="2022-08-08T18:27:07Z" name="setupTest" finished-at="2022-08-08T18:27:13Z" duration-ms="5981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="iCanAddTodo()[pri:0, instance:com.todos.tests.AddTodoTest@50dfbc58]" started-at="2022-08-08T18:27:13Z" name="iCanAddTodo" finished-at="2022-08-08T18:27:13Z" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iCanAddTodo -->
+        <test-method is-config="true" signature="cleanTest()[pri:0, instance:com.todos.tests.AddTodoTest@50dfbc58]" started-at="2022-08-08T18:27:13Z" name="cleanTest" finished-at="2022-08-08T18:27:14Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+      </class> <!-- com.todos.tests.AddTodoTest -->
+      <class name="com.todos.tests.RemoveToDoTest">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:com.todos.tests.RemoveToDoTest@5717c37]" started-at="2022-08-08T18:27:14Z" name="setupTest" finished-at="2022-08-08T18:27:17Z" duration-ms="3154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="iRemoveToDoTest()[pri:0, instance:com.todos.tests.RemoveToDoTest@5717c37]" started-at="2022-08-08T18:27:17Z" name="iRemoveToDoTest" finished-at="2022-08-08T18:27:17Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iRemoveToDoTest -->
+        <test-method is-config="true" signature="cleanTest()[pri:0, instance:com.todos.tests.RemoveToDoTest@5717c37]" started-at="2022-08-08T18:27:17Z" name="cleanTest" finished-at="2022-08-08T18:27:18Z" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+      </class> <!-- com.todos.tests.RemoveToDoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
